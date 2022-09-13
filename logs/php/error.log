@@ -21,3 +21,14 @@
 [12-Sep-2022 12:53:20 UTC] PHP   7. load_template() C:\Users\cleme\Local Sites\gymfitness\app\public\wp-includes\template.php:716
 [12-Sep-2022 12:53:20 UTC] PHP   8. require_once() C:\Users\cleme\Local Sites\gymfitness\app\public\wp-includes\template.php:770
 [13-Sep-2022 12:55:44 UTC] PHP Parse error:  syntax error, unexpected '?>' in C:\Users\cleme\Local Sites\gymfitness\app\public\wp-content\themes\gymfitness\inc\queries.php on line 27
+[13-Sep-2022 13:59:57 UTC] PHP Fatal error:  Uncaught Error: Class 'Foo_Widget' not found in C:\Users\cleme\Local Sites\gymfitness\app\public\wp-includes\class-wp-widget-factory.php:61
+Stack trace:
+#0 C:\Users\cleme\Local Sites\gymfitness\app\public\wp-includes\widgets.php(115): WP_Widget_Factory->register('Foo_Widget')
+#1 C:\Users\cleme\Local Sites\gymfitness\app\public\wp-content\plugins\gymfitness_widgets\gymfitness_widgets.php(92): register_widget('Foo_Widget')
+#2 C:\Users\cleme\Local Sites\gymfitness\app\public\wp-includes\class-wp-hook.php(307): register_foo_widget('')
+#3 C:\Users\cleme\Local Sites\gymfitness\app\public\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#4 C:\Users\cleme\Local Sites\gymfitness\app\public\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#5 C:\Users\cleme\Local Sites\gymfitness\app\public\wp-includes\widgets.php(1854): do_action('widgets_init')
+#6 C:\Users\cleme\Local Sites\gymfitness\app\public\wp-includes\class-wp-hook.php(307): wp_widgets_init('')
+#7 C:\Users\cleme\Local Sites\gymfitness\ in C:\Users\cleme\Local Sites\gymfitness\app\public\wp-includes\class-wp-widget-factory.php on line 61
+[13-Sep-2022 14:11:25 UTC] PHP Parse error:  syntax error, unexpected '?>', expecting '(' in C:\Users\cleme\Local Sites\gymfitness\app\public\wp-content\plugins\gymfitness_widgets\gymfitness_widgets.php on line 51
