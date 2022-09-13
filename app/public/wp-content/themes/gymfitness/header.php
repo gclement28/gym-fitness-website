@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <?php wp_head(); ?>
 
-  <title>La Pizzeria </title>
+  <title>Gym Fitness</title>
   <?php wp_head(); ?>
 </head>
 

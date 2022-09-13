@@ -20,3 +20,4 @@
 [12-Sep-2022 12:53:20 UTC] PHP   6. locate_template() C:\Users\cleme\Local Sites\gymfitness\app\public\wp-includes\general-template.php:92
 [12-Sep-2022 12:53:20 UTC] PHP   7. load_template() C:\Users\cleme\Local Sites\gymfitness\app\public\wp-includes\template.php:716
 [12-Sep-2022 12:53:20 UTC] PHP   8. require_once() C:\Users\cleme\Local Sites\gymfitness\app\public\wp-includes\template.php:770
+[13-Sep-2022 12:55:44 UTC] PHP Parse error:  syntax error, unexpected '?>' in C:\Users\cleme\Local Sites\gymfitness\app\public\wp-content\themes\gymfitness\inc\queries.php on line 27
