@@ -281,13 +281,13 @@ flex:0 0 calc(60% - 2rem);
 
 /** Classes List **/
 
-.classes-list{
+.classes-list, .blog-entries{
   margin-top: 4rem;
 
 }
 
 @media (min-width:768px){
-  .classes-list{
+  .classes-list, .blog-entries{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -364,6 +364,14 @@ color: var(--primary);
 font-weight: 700;
 font-size: 2rem;
 margin: 0;
+}
+
+.card .card-content .date-published{
+  color: white;
+}
+
+.card .card-content .date-published span{
+  color: var(--primary);
 }
 
 /** Single class **/
