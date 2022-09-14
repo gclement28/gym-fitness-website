@@ -365,13 +365,54 @@ font-weight: 700;
 font-size: 2rem;
 margin: 0;
 }
-
 .card .card-content .date-published{
-  color: white;
+  color: var(--black);
 }
+@media (min-width:768px){
+  .card .card-content .date-published{
+    color: white;
+  }
+  
+}
+
 
 .card .card-content .date-published span{
   color: var(--primary);
+}
+
+/** Categories **/
+
+.post-categories{
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+@media (min-width:768px){
+  .post-categories{
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    margin-top: 0;
+    z-index: 2;
+  }
+  
+}
+.post-categories li {
+  margin-right: 2rem;  
+  background-color: var(--primary);
+}
+
+.post-categories li:last-of-type{
+  margin-right: 0;
+}
+.post-categories a{
+  border-radius: .5rem;
+  color: var(--darkGray);
+  padding: .5rem 2rem;
+  font-size: 2.2rem;
+  font-family: var(--mainFont);
+  color: var(--white);
 }
 
 /** Single class **/
